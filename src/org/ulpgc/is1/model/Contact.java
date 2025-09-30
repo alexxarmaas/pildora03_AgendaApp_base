@@ -2,8 +2,8 @@ package org.ulpgc.is1.model;
 
 public abstract class Contact {
 
-    public String telephone;
-    public String email;
+    private String telephone;
+    private String email;
 
     public Contact(String telephone, String email) {
         this.telephone = telephone;
